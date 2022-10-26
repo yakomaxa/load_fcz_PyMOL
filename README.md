@@ -73,6 +73,6 @@ pymol test.fcz test2.fcz
 
 # License
 
-Follows PyMOL's and foldcomp lisence. 
+Follows PyMOL's and foldcomp license. 
 
 I'm not aware how to contribute to PyMOL software. Your advice will help. 
