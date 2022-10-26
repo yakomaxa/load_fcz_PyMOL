@@ -1,5 +1,11 @@
 # load_fcz
-load foldcomp fcz binary into PyMOL
+load Foldcomp fcz binary into PyMOL
+
+Foldcomp
+https://github.com/steineggerlab/foldcomp
+
+PyMOL
+https://github.com/schrodinger/pymol-open-source
 
 # Usage
 
