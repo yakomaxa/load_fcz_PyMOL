@@ -24,7 +24,7 @@ Example importing.py is avaiable from this repo, but **be vary careful** to repl
 
 Install foldcomp by pip bundled with PyMOL. 
 
-### 1. add function (snippet below) to importing.py
+### 1. Add function (snippet below) to importing.py
 ```
 import foldcomp
 def load_fcz(filename, object=None, state=0, *, _self=cmd):
@@ -35,7 +35,7 @@ def load_fcz(filename, object=None, state=0, *, _self=cmd):
     object = name
   cmd.read_pdbstr(pdb, object)
 ```  
-### 2. add load_fcz to the loader list
+### 2. Add load_fcz to the loader list
 
 At the bottom of importing.py, you will find the loader list. Add there your load_fcz.
 Example is below.
