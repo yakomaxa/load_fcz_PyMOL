@@ -71,7 +71,7 @@ From the commandline, launch pymol specifying some fcz files
 pymol test.fcz test2.fcz 
 ```
 
-# Lisence
+# License
 
 Follows PyMOL's and foldcomp lisence. 
 
