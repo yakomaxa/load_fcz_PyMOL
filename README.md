@@ -1,7 +1,7 @@
 # load_fcz
 load foldcomp fcz binary into PyMOL
 
-# usage
+# Usage
 
 ```
 run load_fcz.py
