@@ -2,7 +2,11 @@
 load foldcomp fcz binary into PyMOL
 
 # usage
+
+```
 run load_fcz.py
+load_fcz yourfcz.fcz
+```
 
 # Advanced usage
 If defining this function in the importing.py of (core of) PyMOL, it allows loading fcz files when launching PyMOL.
