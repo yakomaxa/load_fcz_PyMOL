@@ -11,10 +11,11 @@ Example importing.py is avaiable from this repo, but be vary careful to replace 
 ## How to modify your importing py
 
 ### 0. Install foldcomp
+
 Install foldcomp by pip bundled with PyMOL. 
 
 ### 1. add function (snippet below) to importing.py
-
+```
 import foldcomp
 def load_fcz(filename, object=None, state=0, *, _self=cmd):
   with open(filename, "rb") as fcz:
@@ -23,10 +24,13 @@ def load_fcz(filename, object=None, state=0, *, _self=cmd):
   if (object == None):
     object = name
   cmd.read_pdbstr(pdb, object)
-  
+```  
 ### 2. add load_fcz to the loader list
-At the bottom of importing.py, you will find the loader list. Add there your load_fcz.
 
+At the bottom of importing.py, you will find the loader list. Add there your load_fcz.
+Example is below.
+
+```
 loadfunctions = {
         'mae': incentive_format_not_available_func,
         'pdbml': 'pymol.lazyio:load_pdbml',
@@ -54,7 +58,7 @@ loadfunctions = {
         'moe': incentive_format_not_available_func,
         'phypo': incentive_format_not_available_func,
     }
-
+```
 
 
 
