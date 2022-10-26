@@ -8,7 +8,7 @@
 #H* -------------------------------------------------------------------
 #I* Additional authors of this source file include:
 #-*
-#-*
+#-* This is modified version by Koya Sakuma with foldcomp fcz loader
 #-*
 #Z* -------------------------------------------------------------------
 
