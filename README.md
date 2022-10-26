@@ -59,7 +59,16 @@ loadfunctions = {
         'phypo': incentive_format_not_available_func,
     }
 ```
+### 3. Check if it works
 
+From the commandline, launch pymol specifying some fcz files
 
+```
+pymol test.fcz test2.fcz 
+```
+
+# Lisence
+
+Follows PyMOL's and foldcomp lisence. 
 
 I'm not aware how to contribute to PyMOL software. Your advice will help. 
