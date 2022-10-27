@@ -16,7 +16,7 @@ load_fcz yourfcz.fcz
 
 # Advanced usage
 If defining this function in the importing.py of (core of) PyMOL, it allows loading fcz files when launching PyMOL.
-Example importing.py is available from this repo, but **be vary careful** to replace your original importing.py by this beucase there may be version differences.
+Example importing.py is available from this repo, but **be very careful** to replace your original importing.py by this beucase there may be version differences.
 
 ## How to modify your importing py
 
