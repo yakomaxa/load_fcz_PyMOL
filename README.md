@@ -8,6 +8,8 @@ PyMOL
 https://github.com/schrodinger/pymol-open-source
 
 # Usage
+Before using this, install foldcomp via pip bundled with your PyMOL.
+And then, 
 
 ```
 run load_fcz.py
